@@ -5,7 +5,6 @@ import "./Expenses.css";
 const Expenses = (props) => {
   return (
     <div>
-      <h2> Let's get started your dad and mom boys</h2>
       <Card className="expenses">
         <ExpenseItem
           title={props.expenseList[0].title}
